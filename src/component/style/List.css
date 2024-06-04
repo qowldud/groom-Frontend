@@ -1,0 +1,30 @@
+.main_list {
+  border: 2px solid rgb(87, 163, 196);
+  border-radius: 4px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_list-cost {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.main_list-cost span {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.main_list-btn {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: rgb(139, 190, 240);
+  cursor: pointer;
+}
