@@ -1,0 +1,43 @@
+.main_send {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(87, 163, 196);
+  width: 250px;
+  height: 250px;
+  border-radius: 4px;
+  align-items: center;
+}
+.main_send-spending {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px 10px 30px;
+  padding-top: 20px;
+}
+.main_send-spending span {
+  margin-bottom: 10px;
+}
+.main_send-spending input {
+  border: none;
+  border-bottom: 1px solid rgb(67, 148, 170);
+}
+.main_send-cost {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 20px 10px 30px;
+  padding-top: 30px;
+}
+.main_send-cost span {
+  margin-bottom: 10px;
+}
+.main_send-cost input {
+  border: none;
+  border-bottom: 1px solid rgb(67, 148, 170);
+}
+.main_send-btn {
+  width: 80px;
+  height: 30px;
+  margin-top: 10px;
+  border: none;
+  background-color: rgb(139, 190, 240);
+  cursor: pointer;
+}
